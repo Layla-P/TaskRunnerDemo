@@ -1,0 +1,29 @@
+{
+  "name": "taskrunnerdemo",
+  "version": "1.0.0",
+  "description": "a quick demo of task runners",
+  "main": "index.js",
+  "dependencies": { },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-uglify": "2.0.0",
+    "gulp-less": "3.1.0",
+    "pump": "1.0.1",
+    "path": "0.12.7",
+    "gulp-rename": "1.2.2",
+    "gulp-clean-css": "2.0.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Layla-P/TaskRunnerDemo.git"
+  },
+  "author": "layla-p",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Layla-P/TaskRunnerDemo/issues"
+  },
+  "homepage": "https://github.com/Layla-P/TaskRunnerDemo#readme"
+}
