@@ -23,7 +23,7 @@ To get nodejs working in cmd or powershell
 Add the following to PATH variable in the USER VARIABLE section of Environment Variables:
 C:\Program Files\nodejs\
 --------------------------------------------------------------------------------------------
-Install grunt on the cmd.exe as admin
+Install gulp on the cmd.exe as admin
 npm install -g gulp
 -------------------------------------------------------------------------------------------
 To run the task runner from within Visual Studio 2013, the task runner explorer is needed:
@@ -32,11 +32,14 @@ Package Intellisense – this provides various tools for npm, gulp, grunt etc
 https://visualstudiogallery.msdn.microsoft.com/65748cdb-4087-497e-a394-2e3449c8e61e
 
 ---------------------------------------------------------------------------------------------
-Adding git to your solution:
+Adding gulp to your solution:
 In powershell, cd into the solution folder and enter the command:
 npm init
 You will then be lead theough a series of instructions.
 Add a file called gulpfile.js to the solution as well .
+(could also do this by the following command in the rrot of the project:
+touch Gulpfile.js
+)
 --------------------------------------------------------------------------------------
 That is the solution set up.
 To install the nodejs packages required by the project, type the following command in powershell in the solution folder:
