@@ -30,7 +30,11 @@ To run the task runner from within Visual Studio 2013, the task runner explorer 
 https://visualstudiogallery.msdn.microsoft.com/8e1b4368-4afb-467a-bc13-9650572db708
 Package Intellisense – this provides various tools for npm, gulp, grunt etc
 https://visualstudiogallery.msdn.microsoft.com/65748cdb-4087-497e-a394-2e3449c8e61e
-
+---------------------------------------------------------------------------------------------
+Another really useful extension is the npm task runner (only available for vs 2015 and 2017)
+https://marketplace.visualstudio.com/items?itemName=MadsKristensen.NPMTaskRunner
+This will run scripts from within the package.json file.
+Perfect for automating things such as 'npm install'
 ---------------------------------------------------------------------------------------------
 Adding gulp to your solution:
 In powershell, cd into the solution folder and enter the command:
